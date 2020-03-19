@@ -1,0 +1,46 @@
+﻿
+<div class="row" style="padding: 20px">
+    <div class="col-md-6">
+        <h6 style="font-weight: bold">Loại dữ liệu</h6>
+        <!-- Default inline 1-->
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="ldl1" value="false" name="ldl" checked>
+            <label class="custom-control-label" for="ldl1" style="font-weight: normal">Dữ liệu dự báo</label>
+        </div>
+
+        <!-- Default inline 2-->
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="ldl2" value="true" name="ldl">
+            <label class="custom-control-label" for="ldl2" style="font-weight: normal">Dữ liệu quan trắc</label>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <h6 style="font-weight: bold">Tên địa danh</h6>
+            <select class="form-control" id="diadanh">
+                <option value="0">Chọn địa danh</option>
+                <option value="01">HT Sông Nhuệ</option>
+                <option value="02">HT An Kim Hải</option>
+                <option value="03">HT Bắc Nam Hà</option>
+                <option value="04">HT Bắc Đuống</option>
+                <option value="05">HT Quản Lộ - Phụng Hiệp</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-md-12" style="padding-top: 15px">
+        <h6 style="font-weight: bold">Nhập Excel</h6>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupFileAddon01">Tải lên</span>
+            </div>
+            <div class="custom-file" style="margin-right: 10px">
+                <input type="file" accept=".xls,.xlsx" class="custom-file-input" id="file" name="file"
+                        aria-describedby="inputGroupFileAddon01">
+                <label class="custom-file-label" for="inputGroupFile01">Chọn tệp</label>
+            </div>
+            <input class="btn btn-success" type="button" id="upload" style="width: 100px; cursor: pointer" value="Tải lên" />
+        </div>
+    </div>
+
+</div>
+
