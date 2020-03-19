@@ -13,7 +13,8 @@
         data: JSON.stringify({
             fromDate: $('#fromDate').val(),
             toDate: $('#toDate').val(),
-            isDuBao: isDuBao
+            isDuBao: isDuBao,
+            id: "05"
         }),
         contentType: 'application/json; charset=utf-8',
         beforeSend: function () {

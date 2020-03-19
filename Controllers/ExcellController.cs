@@ -64,21 +64,6 @@ namespace MTN.Controllers
         }
         #endregion
 
-        [HttpPost]
-        public JsonResult Test()
-        {
-            using (var db = new Models.DbEntities())
-            {
-                var data = db.TD_Diadanh.Select((x, i) => new
-                {
-                    index = i,
-                    x.Tendiadanh
-                });
-                return Json(new { data });
-            }
-
-        }
-
         #region Import
         [HttpPost]
         public JsonResult ImportExcel(HttpPostedFileBase file, string bc)
