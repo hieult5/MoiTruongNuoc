@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="NV_Dulieudubao">
+      <EntityTypeMapping TypeName="Db.NV_Dulieudubao">
+        <MappingFragment StoreEntitySet="NV_Dulieudubao">
+          <ScalarProperty Name="SolieuDB_ID" ColumnName="SolieuDB_ID" />
+          <ScalarProperty Name="Ngaydubao" ColumnName="Ngaydubao" />
+          <ScalarProperty Name="BaocaoDiadanh_ID" ColumnName="BaocaoDiadanh_ID" />
+          <ScalarProperty Name="BaocaoThuoctinh_ID" ColumnName="BaocaoThuoctinh_ID" />
+          <ScalarProperty Name="Giatri" ColumnName="Giatri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NV_DulieuQuantrac">
+      <EntityTypeMapping TypeName="Db.NV_DulieuQuantrac">
+        <MappingFragment StoreEntitySet="NV_DulieuQuantrac">
+          <ScalarProperty Name="SolieuQuantrac_ID" ColumnName="SolieuQuantrac_ID" />
+          <ScalarProperty Name="NgayQuantrac" ColumnName="NgayQuantrac" />
+          <ScalarProperty Name="BaocaoDiadanh_ID" ColumnName="BaocaoDiadanh_ID" />
+          <ScalarProperty Name="BaocaoThuoctinh_ID" ColumnName="BaocaoThuoctinh_ID" />
+          <ScalarProperty Name="Giatri" ColumnName="Giatri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NV_MauBaocao">
+      <EntityTypeMapping TypeName="Db.NV_MauBaocao">
+        <MappingFragment StoreEntitySet="NV_MauBaocao">
+          <ScalarProperty Name="MauBC_ID" ColumnName="MauBC_ID" />
+          <ScalarProperty Name="TenBaocao" ColumnName="TenBaocao" />
+          <ScalarProperty Name="Ngaylap" ColumnName="Ngaylap" />
+          <ScalarProperty Name="Diadanh_ID" ColumnName="Diadanh_ID" />
+          <ScalarProperty Name="Nhansu_ID" ColumnName="Nhansu_ID" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NV_MaubaocaoDiadanh">
+      <EntityTypeMapping TypeName="Db.NV_MaubaocaoDiadanh">
+        <MappingFragment StoreEntitySet="NV_MaubaocaoDiadanh">
+          <ScalarProperty Name="BaocaoDiadanh_ID" ColumnName="BaocaoDiadanh_ID" />
+          <ScalarProperty Name="MauBC_ID" ColumnName="MauBC_ID" />
+          <ScalarProperty Name="Diadanh_ID" ColumnName="Diadanh_ID" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NV_MaubaocaoThuoctinh">
+      <EntityTypeMapping TypeName="Db.NV_MaubaocaoThuoctinh">
+        <MappingFragment StoreEntitySet="NV_MaubaocaoThuoctinh">
+          <ScalarProperty Name="BaocaoThuoctinh_ID" ColumnName="BaocaoThuoctinh_ID" />
+          <ScalarProperty Name="MauBC_ID" ColumnName="MauBC_ID" />
+          <ScalarProperty Name="Thuoctinh_ID" ColumnName="Thuoctinh_ID" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_Danhmuc">
+      <EntityTypeMapping TypeName="Db.TD_Danhmuc">
+        <MappingFragment StoreEntitySet="TD_Danhmuc">
+          <ScalarProperty Name="Danhmuc_ID" ColumnName="Danhmuc_ID" />
+          <ScalarProperty Name="TenDanhmuc" ColumnName="TenDanhmuc" />
+          <ScalarProperty Name="Danhmuccha_ID" ColumnName="Danhmuccha_ID" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_Diadanh">
+      <EntityTypeMapping TypeName="Db.TD_Diadanh">
+        <MappingFragment StoreEntitySet="TD_Diadanh">
+          <ScalarProperty Name="Diadanh_ID" ColumnName="Diadanh_ID" />
+          <ScalarProperty Name="Tendiadanh" ColumnName="Tendiadanh" />
+          <ScalarProperty Name="Diadanhcha_ID" ColumnName="Diadanhcha_ID" />
+          <ScalarProperty Name="Mota" ColumnName="Mota" />
+          <ScalarProperty Name="ToadoX" ColumnName="ToadoX" />
+          <ScalarProperty Name="ToadoY" ColumnName="ToadoY" />
+          <ScalarProperty Name="URLs" ColumnName="URLs" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+          <ScalarProperty Name="Danhmuc_ID" ColumnName="Danhmuc_ID" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_Thuoctinh">
+      <EntityTypeMapping TypeName="Db.TD_Thuoctinh">
+        <MappingFragment StoreEntitySet="TD_Thuoctinh">
+          <ScalarProperty Name="Thuoctinh_ID" ColumnName="Thuoctinh_ID" />
+          <ScalarProperty Name="Tenthuoctinh" ColumnName="Tenthuoctinh" />
+          <ScalarProperty Name="Donvitinh" ColumnName="Donvitinh" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+          <ScalarProperty Name="STT" ColumnName="STT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetGiaTri" FunctionName="Db.Store.GetGiaTri">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Db.GetGiaTri_Result">
+          <ScalarProperty Name="MauBC_ID" ColumnName="MauBC_ID" />
+          <ScalarProperty Name="Ngaylap" ColumnName="Ngaylap" />
+          <ScalarProperty Name="Baocao" ColumnName="Baocao" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Db.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Db.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Db.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Db.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Db.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Db.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Db.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Db.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Db.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

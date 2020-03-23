@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aba6634e05894eed8aa814caa8d6dafe" Name="Diagram1">
+        <EntityTypeShape EntityType="Db.NV_Dulieudubao" Width="1.5" PointX="2.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db.NV_DulieuQuantrac" Width="1.5" PointX="4.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db.NV_MauBaocao" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db.NV_MaubaocaoDiadanh" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db.NV_MaubaocaoThuoctinh" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db.TD_Danhmuc" Width="1.5" PointX="5.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db.TD_Diadanh" Width="1.5" PointX="8" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Db.TD_Thuoctinh" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="Db.FK_NV_MaubaocaoDiadanh_NV_MauBaocao" ManuallyRouted="false" />
+        <AssociationConnector Association="Db.FK_NV_MaubaocaoThuoctinh_NV_MauBaocao" ManuallyRouted="false" />
+        <AssociationConnector Association="Db.FK_NV_MaubaocaoThuoctinh_TD_Thuoctinh" ManuallyRouted="false" />
+        <AssociationConnector Association="Db.FK_TD_Diadanh_TD_Danhmuc" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
